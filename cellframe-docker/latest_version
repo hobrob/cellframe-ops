@@ -1,2 +1,4 @@
+# This should contain the latest available major and minor version from https://pub.cellframe.net/linux/cellframe-node/master/to be read by build_and_run.sh but may not always be up to date
+# If that's the case and the latest version is desired then supply the correct values as the last two arguments to build_and_run.sh
 VMAJOR=5
 VMINOR=3
