@@ -1,6 +1,8 @@
 FROM ubuntu:latest
-
 ENV DEBIAN_FRONTEND noninteractive
+
+ARG VMAJOR
+ARG VMINOR
 
 RUN apt-get update && apt-get -y dist-upgrade && apt-get -y install wget libexpat1 libmagic1
 
