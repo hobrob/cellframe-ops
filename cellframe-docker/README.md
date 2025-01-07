@@ -20,8 +20,14 @@ With this Dockerfile you can build and run your own Cellframe node docker image 
     examples
     ```sh
     ./build_and_run.sh cellframe
+    ```
+    ```sh
     ./build_and_run.sh cellframe -d
+    ```
+    ```sh
     ./build_and_run.sh cellframe -d 5 3
+    ```
+    ```sh
     ./build_and_run.sh cellframe 5 3
     ```
 
@@ -37,7 +43,7 @@ With this Dockerfile you can build and run your own Cellframe node docker image 
 2. First, create an image by executing the following command from the current directory:
 
     ```sh
-    docker build -t --build-arg VMAJOR=<major version> --build-arg VMAJOR=<minor version> <name> .
+    docker build -t  <name> --build-arg VMAJOR=<major version> --build-arg VMAJOR=<minor version> .
     ```
 
 3. Then create a volume with:
